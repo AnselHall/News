@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ansel.news.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+    <com.ansel.news.widget.BottomNavigationViewEx
+        android:id="@+id/bnvx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/viewBackground"
+        app:elevation="16dp"
+        app:menu="@menu/bottom_navigation_items">
+
+    </com.ansel.news.widget.BottomNavigationViewEx>
+
+    <View
+        android:id="@+id/view_01"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_above="@id/bnvx"
+        android:background="@color/color_line" />
+
+
+    <!--<LinearLayout
+        android:id="@+id/ll_bottom_navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cz"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="8.0dip"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="10.0dip">
+
+        <LinearLayout
+            android:id="@+id/ll_index"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3.0dip"
+                android:text="@string/yv"
+                android:textColor="@color/j_"
+                android:textSize="9.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_video"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3.0dip"
+                android:text="@string/yx"
+                android:textColor="@color/j_"
+                android:textSize="9.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_focus"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3.0dip"
+                android:text="@string/yp"
+                android:textColor="@color/j_"
+                android:textSize="9.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_account"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3.0dip"
+                android:text="@string/ys"
+                android:textColor="@color/j_"
+                android:textSize="9.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_01"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_above="@id/ll_bottom_navigation"
+        android:background="@color/bh" />-->
+
+</RelativeLayout>

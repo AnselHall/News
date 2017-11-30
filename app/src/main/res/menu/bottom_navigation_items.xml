@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/index"
+        android:icon="@mipmap/index_icon"
+        android:title="首页" />
+    <item
+        android:id="@+id/video"
+        android:icon="@mipmap/video_icon"
+        android:title="西瓜视频" />
+    <item
+        android:id="@+id/focus"
+        android:icon="@mipmap/focus_icon"
+        android:title="关注" />
+    <item
+        android:id="@+id/account"
+        android:icon="@mipmap/account_icon"
+        android:title="我的" />
+</menu>
