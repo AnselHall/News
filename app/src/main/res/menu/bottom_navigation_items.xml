@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/index"
-        android:icon="@mipmap/index_icon"
-        android:title="首页" />
+        android:icon="@mipmap/icon_index_unchecked"
+        android:title="@string/index" />
     <item
         android:id="@+id/video"
-        android:icon="@mipmap/video_icon"
-        android:title="西瓜视频" />
+        android:icon="@mipmap/icon_video_unchecked"
+        android:title="@string/video" />
     <item
         android:id="@+id/focus"
-        android:icon="@mipmap/focus_icon"
-        android:title="关注" />
+        android:icon="@mipmap/icon_focus_unchecked"
+        android:title="@string/focus" />
     <item
         android:id="@+id/account"
-        android:icon="@mipmap/account_icon"
-        android:title="我的" />
+        android:icon="@mipmap/icon_account_unchecked"
+        android:title="@string/account" />
 </menu>

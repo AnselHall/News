@@ -27,6 +27,8 @@ import java.lang.reflect.Field;
 
 /**
  * Created by yu on 2016/11/10.
+ *
+ * https://github.com/ittianyu/BottomNavigationViewEx
  */
 public class BottomNavigationViewEx extends BottomNavigationView {
     // used for animation

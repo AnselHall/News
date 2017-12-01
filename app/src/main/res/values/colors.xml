@@ -14,5 +14,8 @@
     <color name="color_line">#cacaca</color>
     <color name="viewBackground">@android:color/white</color>
 
+    <color name="text_color_unchecked">#ff505050</color>
+    <color name="text_color_checked">@color/app_color</color>
+
 
 </resources>

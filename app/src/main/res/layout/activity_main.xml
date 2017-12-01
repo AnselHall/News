@@ -14,38 +14,29 @@
 
     </FrameLayout>
 
-    <com.ansel.news.widget.BottomNavigationViewEx
-        android:id="@+id/bnvx"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:background="@color/viewBackground"
-        app:elevation="16dp"
-        app:menu="@menu/bottom_navigation_items">
+    <!--<com.ansel.news.widget.BottomNavigationViewEx-->
+        <!--android:id="@+id/bnvx"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:background="@color/viewBackground"-->
+        <!--app:elevation="16dp"-->
+        <!--app:itemIconTint="@color/app_color"-->
+        <!--app:itemTextColor="@color/app_color"-->
+        <!--app:menu="@menu/bottom_navigation_items">-->
 
-    </com.ansel.news.widget.BottomNavigationViewEx>
+    <!--</com.ansel.news.widget.BottomNavigationViewEx>-->
 
-    <View
-        android:id="@+id/view_01"
-        android:layout_width="fill_parent"
-        android:layout_height="0.5dip"
-        android:layout_above="@id/bnvx"
-        android:background="@color/color_line" />
-
-
-    <!--<LinearLayout
+    <LinearLayout
         android:id="@+id/ll_bottom_navigation"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/cz"
         android:gravity="bottom"
         android:orientation="horizontal"
-        android:paddingBottom="8.0dip"
-        android:clickable="true"
-        android:focusable="true"
-        android:paddingTop="10.0dip">
+        android:paddingBottom="4.0dip"
+        >
 
         <LinearLayout
             android:id="@+id/ll_index"
@@ -56,16 +47,17 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/iv_index"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/a_2" />
+                android:background="@mipmap/icon_index_unchecked" />
 
             <TextView
+                android:id="@+id/tv_index"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="3.0dip"
-                android:text="@string/yv"
-                android:textColor="@color/j_"
+                android:text="@string/index"
+                android:textColor="@color/text_color_unchecked"
                 android:textSize="9.0sp" />
         </LinearLayout>
 
@@ -78,16 +70,17 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/iv_video"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/a_1" />
+                android:background="@mipmap/icon_video_unchecked" />
 
             <TextView
+                android:id="@+id/tv_video"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="3.0dip"
-                android:text="@string/yx"
-                android:textColor="@color/j_"
+                android:text="@string/video"
+                android:textColor="@color/text_color_unchecked"
                 android:textSize="9.0sp" />
         </LinearLayout>
 
@@ -100,16 +93,17 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/iv_focus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/a_0" />
+                android:background="@mipmap/icon_focus_unchecked" />
 
             <TextView
+                android:id="@+id/tv_focus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="3.0dip"
-                android:text="@string/yp"
-                android:textColor="@color/j_"
+                android:text="@string/focus"
+                android:textColor="@color/text_color_unchecked"
                 android:textSize="9.0sp" />
         </LinearLayout>
 
@@ -122,16 +116,17 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/iv_account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/a_3" />
+                android:background="@mipmap/icon_account_unchecked" />
 
             <TextView
+                android:id="@+id/tv_account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="3.0dip"
-                android:text="@string/ys"
-                android:textColor="@color/j_"
+                android:text="@string/account"
+                android:textColor="@color/text_color_unchecked"
                 android:textSize="9.0sp" />
         </LinearLayout>
     </LinearLayout>
@@ -141,6 +136,6 @@
         android:layout_width="fill_parent"
         android:layout_height="0.5dip"
         android:layout_above="@id/ll_bottom_navigation"
-        android:background="@color/bh" />-->
+        android:background="@color/color_line" />
 
 </RelativeLayout>
